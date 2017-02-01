@@ -1,0 +1,26 @@
+.game-board, #cross, #circle {
+  height: 100%;
+  vertical-align: center;
+  padding-bottom: 10px;
+}
+
+.box {
+  height: 15vw;
+  border: medium solid black;
+}
+
+.box:hover {
+  background: grey;
+}
+
+.box img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  font-size: 3vw;
+  text-align: center;
+  display: block;
+}
